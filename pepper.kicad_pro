@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.27,
+          "width": 0.86
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -489,7 +489,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Display",
-        "pcb_color": "rgb(0, 132, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -506,7 +506,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "ESP",
-        "pcb_color": "rgb(0, 132, 132)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -523,7 +523,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Ground",
-        "pcb_color": "rgb(72, 72, 72)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -540,7 +540,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
-        "pcb_color": "rgb(255, 0, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -557,7 +557,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
-        "pcb_color": "rgb(132, 0, 132)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -722,6 +722,10 @@
     [
       "993072d2-a1b1-48b1-a26f-7b21ef457586",
       "Root"
+    ],
+    [
+      "7f2e3438-be4e-4b00-a277-dbb8a6d41d51",
+      "Battery"
     ]
   ],
   "text_variables": {}
